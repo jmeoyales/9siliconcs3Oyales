@@ -32,18 +32,21 @@ Please list possible sub-problems:
 
 Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
-----
-Sub-Problem:                     CT Skill:                              Example Solution:
-[number 1]                     [Efficiency]             "Adding glass so user can tell what is in stock"
 
-[number 2]               [Breaking down complexity]     "Breaking down the problem can allow us to find the issue to fix"
+# STEP 3 ANSWER
 
-[number 3]               [Foundation for algorithms]    "By Decomposing this we can form a more effecient algorithm"
+# Sub-Problem:                     CT Skill:                              Example Solution:
+# [number 1]                     [Efficiency]             "Adding glass so user can tell what is in stock"
+
+# [number 2]               [Breaking down complexity]     "Breaking down the problem can allow us to find the issue to fix"
+
+# [number 3]               [Foundation for algorithms]    "By Decomposing this we can form a more effecient algorithm"
 
 
 
-Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem (Your group could use a separate sheet of paper)
+# Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem (Your group could use a separate sheet of paper)
 
+# PSEUDOCODE
 START
     INPUT number FROM user
     CHECK IF number is available
