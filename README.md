@@ -1,4 +1,5 @@
 # 9siliconcs3
 #Jon Milsen E. Oyales
 # i like guns
-# hello van lester b balubar
+# please do not use this repo this is mine leave it alone
+
