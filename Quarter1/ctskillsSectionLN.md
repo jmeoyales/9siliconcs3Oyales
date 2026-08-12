@@ -32,7 +32,7 @@ Please list possible sub-problems:
 
 Step 3: Define Computational Thinking Approaches
 For each sub-problem, apply CT skills:
-
+----
 Sub-Problem:                     CT Skill:                              Example Solution:
 [number 1]                     [Efficiency]             "Adding glass so user can tell what is in stock"
 
