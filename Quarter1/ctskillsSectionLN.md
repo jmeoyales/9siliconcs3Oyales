@@ -40,6 +40,8 @@ Sub-Problem:                     CT Skill:                              Example 
 
 [number 3]               [Foundation for algorithms]    "By Decomposing this we can form a more effecient algorithm"
 
+
+
 Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem (Your group could use a separate sheet of paper)
 
 START
