@@ -7,9 +7,8 @@ Activity 1
 [ctskillsSiliconOyales.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/ctskillsSectionLN.md)
 
 Activity 2
+   
+[Ducumentation](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/zodiacSiliconOyales.md)
 
-    Documentation
-[zodiacSectionOayles.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/zodiacSiliconOyales.md)
 
-    python live code link
-[zodiacSiliconOyales.py](https://github.com/jmeoyales/Oyales9Silicon/blob/main/q1/zodiacSiliconOyales.py)
+[Python Code](https://github.com/jmeoyales/Oyales9Silicon/blob/main/q1/zodiacSiliconOyales.py)
