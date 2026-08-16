@@ -6,4 +6,4 @@
 Activity 1 
     [Quarter1/ctskillsSectionLN.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/ctskillsSectionLN.md)
 
-https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/zodiacSectionLN.md
+{hello}https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/zodiacSectionLN.md
