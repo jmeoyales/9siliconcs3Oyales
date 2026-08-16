@@ -3,7 +3,7 @@
 #DL this qua? am i cooking?
 
 Computational Thinking Exercise 
-[ctskillsSiliconOyales.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/ctskillsSectionLN.md)
+[ctskillsSiliconOyales.md](zodiacSiliconOyales.md)
 
 Chinese Zodiac
 [Ducumentation](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/zodiacSiliconOyales.md)
