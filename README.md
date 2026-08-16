@@ -3,10 +3,9 @@
 #DL this qua? am i cooking?
 
 Computational Thinking Exercise 
-[ctskillsSiliconOyales.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/q1/ctskillsSiliconOyales.md)
+[Computational Thinking](q1/ctskillsSiliconOyales.md)
 
 Chinese Zodiac
-[Ducumentation](https://github.com/jmeoyales/Oyales9Silicon/blob/main/q1/zodiacSiliconOyales.md)
+[Documentation](q1/zodiacSiliconOyales.md)
 python
-[Python Code](https://github.com/jmeoyales/Oyales9Silicon/blob/main/q1/zodiacSiliconOyales.py
-)
+[Python Code](q1/zodiacSiliconOyales.py)
