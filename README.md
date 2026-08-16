@@ -1,7 +1,6 @@
 # 9siliconcs3
 #Jon Milsen E. Oyales
-# i like guns
-# please do not use this repo this is mine leave it alone
+# DL this qua? am i cooking?
 
 Activity 1 
 [ctskillsSiliconOyales.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/ctskillsSectionLN.md)
