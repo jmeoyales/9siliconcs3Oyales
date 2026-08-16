@@ -1,6 +1,6 @@
 # 9siliconcs3
 #Jon Milsen E. Oyales
-# DL this qua? am i cooking?
+#DL this qua? am i cooking?
 
 Activity 1 
 [ctskillsSiliconOyales.md](https://github.com/jmeoyales/Oyales9Silicon/blob/main/Quarter1/ctskillsSectionLN.md)
