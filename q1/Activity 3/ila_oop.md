@@ -17,7 +17,4 @@ Polymorphism means instead of making it such that the object will hold the abili
 ## Reflection
 I believe is its inheritance that will be most useful for improving the sari-sari stores inventory system due to inheritance meaning that instead of assigning 1 wvariable for each item it will instead inherite a value and name from the inventory and what is currently in stock at the sari sari store making it far more effecient than the previous one.
 
-Reflection
-After completing your explanations, answer the following question in 3-5 sentences:
-Among the four pillars of Object-Oriented Programming, which do you think would be most useful in improving the sari-sari store inventory system? Explain your answer.
 
