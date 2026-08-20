@@ -16,3 +16,8 @@ Your explanation here.
 
 ## Reflection
 Answer the reflection question here.
+
+Reflection
+After completing your explanations, answer the following question in 3-5 sentences:
+Among the four pillars of Object-Oriented Programming, which do you think would be most useful in improving the sari-sari store inventory system? Explain your answer.
+
