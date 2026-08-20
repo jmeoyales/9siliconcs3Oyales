@@ -3,9 +3,12 @@
 #DL this qua? am i cooking?
 
 Computational Thinking Exercise 
-[Computational Thinking](q1/ctskillsSiliconOyales.md)
+[Computational Thinking](q1/Activity%201/ctskillsSiliconOyales.md)
 
 Chinese Zodiac
-[Documentation](q1/zodiacSiliconOyales.md)
+[Documentation](q1/Activity%202/zodiacSiliconOyales.md)
 python
-[Python Code](q1/zodiacSiliconOyales.py)
+[Python Code](q1/Activity%202/zodiacSiliconOyales.py)
+
+OOP Concept ILA
+[Place holder](q1/Activity%203/ila_oop.md)
