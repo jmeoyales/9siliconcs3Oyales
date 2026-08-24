@@ -1,6 +1,6 @@
 # 9siliconcs3
 #Jon Milsen E. Oyales
-#DL this qua? am i cooking?
+#[]()
 
 Computational Thinking Exercise 
 [Computational Thinking](q1/Computational%20thinking%20skills/ctskillsSiliconOyales.md)
