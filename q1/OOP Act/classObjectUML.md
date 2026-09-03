@@ -111,4 +111,4 @@ Answer these three questions briefly.
 
 3. Which method do you think is the most useful? Why?  The most useful method is Compartments because this allows for organization in the files so you can easily fin where you put a specific file
 
-Your explanation should reflect your own design decisions. This 
+Your explanation should reflect your own design decisions. 
