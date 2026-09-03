@@ -14,4 +14,4 @@ OOP Concept ILA
 [ILA 3-1: Applying the Four Pillars of OOP](q1/Activity%203/ila_oop.md)
 
 OOP Act
-[Making a Class](q1/OOP%20Act/classObjectUML.md)
+[OOP activity submission](q1/OOP%20Act/classObjectUML.md)
