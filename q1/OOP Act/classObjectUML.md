@@ -102,7 +102,7 @@ Method                                              Description
 # Step 5
 
 
-![OOP ACT](<digital safe OOP (2).png>)
+![OOP Act](image.png)
 
 
 
