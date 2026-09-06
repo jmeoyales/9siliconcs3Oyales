@@ -1,32 +1,22 @@
+# Step 1
 
+##Revision
+# No major changes were needed from my original design. 
 
+#Step 2
 
+#Step 3
 
+#Step 4
 
-#Class 
+#Step 5
 
-#add
-#take
-#userinput
-#acess
-#checkuser
-#checkfiles
-#move
+#Step 6
 
+#Step 7
 
+#Step 8
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#Step 9
 
 
