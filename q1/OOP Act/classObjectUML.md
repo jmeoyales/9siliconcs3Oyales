@@ -92,6 +92,12 @@ Method                                              Description
 | Userinput() |                                     Enables the safe to take inputted files from the user
 | Userinput(Files : Int) |                          
 
+| Makecompartment() |                               Allows the creation of compartments for segregation
+| Makecompartment(compartments : Int) |   
+
+| deletecompartment() |                               Allows deletion of compartments
+| deletecompartment(compartments : Int) |   
+
 
 # Step 5
 
