@@ -58,9 +58,9 @@ pages           int             Number of pages
 available       boolean         Indicates whether the book is available
 
 Username        string          Asks for the users username
-User passkey    string          Asks for their pass key to acess the safe
-compartments    int             Displays all compartments
-files           int             Displays all files in a compartment
+Useru_passkey    string          Asks for their pass key to acess the safe
+Compartments    int             Displays all compartments
+Files           int             Displays all files in a compartment
 Available       boolean         Displays all available files to take or add
 Take            int             Allows to take a file from the safe
 Add             int             Allows to add a file to the safe
@@ -78,7 +78,7 @@ Method                                              Description
 | Movefiles(files : int) |                          
 
 | Access_safe() |                                   Its function is to allow the user to access the safe upon entering their 
-| Access_safe(User passkey : string) |              passkey             
+| Access_safe(User_passkey : string) |              passkey             
 
 | Checkuser() |                                     Checks The users user name to match to a passkey
 | Checkuser(Username : string) |                    
@@ -93,10 +93,10 @@ Method                                              Description
 | Userinput(Files : Int) |                          
 
 | Makecompartment() |                               Allows the creation of compartments for segregation
-| Makecompartment(compartments : Int) |   
+| Makecompartment(Compartments : Int) |   
 
 | deletecompartment() |                               Allows deletion of compartments
-| deletecompartment(compartments : Int) |   
+| deletecompartment(Compartments : Int) |   
 
 
 # Step 5
@@ -121,6 +121,5 @@ Your explanation should reflect your own design decisions.
 
 
 
-##Revision
-# Added 2 new methods to original because compartments needed necessary function to be made and deleted
+
 

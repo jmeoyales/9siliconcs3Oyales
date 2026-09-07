@@ -1,22 +1,10 @@
-# Step 1
-
 ##Revision
-# No major changes were needed from my original design. 
+#Changes from my previous design: 
+#Added two methods as nezecessary functions for compartments (Create, Delete)
 
-#Step 2
-
-#Step 3
-
-#Step 4
-
-#Step 5
-
-#Step 6
-
-#Step 7
-
-#Step 8
-
-#Step 9
-
-
+"""In UML: 
++ Public
+    + Username : string
+    + 
+    +
+- Private """
