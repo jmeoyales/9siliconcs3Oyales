@@ -58,12 +58,14 @@ pages           int             Number of pages
 available       boolean         Indicates whether the book is available
 
 Username        string          Asks for the users username
-Useru_passkey    string          Asks for their pass key to acess the safe
+User_passkey    string          Asks for their pass key to acess the safe
 Compartments    int             Displays all compartments
-Files           int             Displays all files in a compartment
+Files           file            Displays all files in a compartment
 Available       boolean         Displays all available files to take or add
-Take            int             Allows to take a file from the safe
-Add             int             Allows to add a file to the safe
+Take            file             Allows to take a file from the safe
+Add             file             Allows to add a file to the safe
+commake         int             Makes a compartment
+comdelete       int             deletes a compartment
 
 
 # Step 4
@@ -72,10 +74,10 @@ Identify at least three methods that your class should be able to perform. For e
 Method                                              Description
 
 | Addfiles() |                                      Its function is to add a file upon the user request
-| Addfiles(files : int) |                           
+| Addfiles(files : file) |                           
 
 | Movefiles() |                                     Its function is to move a file to a compartment that the user picks
-| Movefiles(files : int) |                          
+| Movefiles(files : file) |                          
 
 | Access_safe() |                                   Its function is to allow the user to access the safe upon entering their 
 | Access_safe(User_passkey : string) |              passkey             
@@ -87,10 +89,10 @@ Method                                              Description
 | Checkfiles(Available : boolean) |                 
 
 | Takefiles() |                                     Allows the user to take a file or more from the safe
-| Takefiles(Files : int) |                          
+| Takefiles(Files : file) |                          
 
 | Userinput() |                                     Enables the safe to take inputted files from the user
-| Userinput(Files : Int) |                          
+| Userinput(Files : file) |                          
 
 | Makecompartment() |                               Allows the creation of compartments for segregation
 | Makecompartment(Compartments : Int) |   
