@@ -6,8 +6,7 @@
 """
 In UML: 
 + Public
-    + Add : string
-    + commake : int
+
 
 - Private
     - Compartments : int
@@ -16,7 +15,6 @@ In UML:
     - Take : string                               
     - Username : string
     - User_passkey : string
-    - comdelete
     
     
 """
@@ -32,4 +30,7 @@ files           string          private         files the exist within the class
 
 '''
 
+class YourClass: 
+    def __init__(Safe, value1, value2, value3): 
+         
 
