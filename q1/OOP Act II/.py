@@ -1,35 +1,34 @@
 ##Revision
 #Changes from my previous design: 
-#Added two methods as nezecessary functions for compartments (Create, Delete) and changed a few properties types to string 
+#Added 4 methods as neecessary functions 2 for compartments (Create, Delete), 2 for usernames (create, delete) and changed a few properties types to string 
 
 
 """
-
-
 In UML: 
 + Public
-    + Username : string
-    + User_passkey : string
     + Add : string
+    + commake : int
 
 - Private
     - Compartments : int
     - Files : string
     - Available : Boolean
-    - Take : string                                """
+    - Take : string                               
+    - Username : string
+    - User_passkey : string
+    - comdelete
+    
+    
+"""
 
 '''
-
 Atrribute       Data Type       Visibility      Why?
 
-Available
-username
-User_passkey
-compartments
-files
-
-
-
+Available       Boolean         Private         Because it is displaying wheather a file is available natively in the class
+username        String          Private         Checks the username the user inputted to the username within the class
+User_passkey    string          private         Checks user input to existing password
+compartments    int             private         Only checks number of compartments within class
+files           string          private         files the exist within the class
 
 '''
 

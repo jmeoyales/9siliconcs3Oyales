@@ -62,10 +62,7 @@ User_passkey    string          Asks for their pass key to acess the safe
 Compartments    int             Displays all compartments
 Files           file            Displays all files in a compartment
 Available       boolean         Displays all available files to take or add
-Take            file             Allows to take a file from the safe
-Add             file             Allows to add a file to the safe
-commake         int             Makes a compartment
-comdelete       int             deletes a compartment
+
 
 
 # Step 4
@@ -99,6 +96,13 @@ Method                                              Description
 
 | deletecompartment() |                               Allows deletion of compartments
 | deletecompartment(Compartments : Int) |   
+
+| Adduser() |                                       Allows creation of users with passkeys
+| adduser(usernames : Int) |   
+
+| deleteuser() |                                    Allows deletion of users
+| deletesuser(usernames : Int) |   
+
 
 
 # Step 5
