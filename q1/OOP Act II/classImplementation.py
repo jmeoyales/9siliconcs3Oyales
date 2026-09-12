@@ -11,10 +11,14 @@ class Digitalsafe:
         self.__User_passkey: str = passkey
         self.__Available: bool = False
         self.__Compartments: int = 1
-        self.__files: str = ""
+        self.__files:  dict[int, list[str]] = {i: [] for i in range(1, self.__Compartments + 1)}
 
 
 #fucntion to open safe to user
+    def total_file_count(self) -> int:
+        return sum(len(files) for files in self.__files.values())
+
+    
     def accesssafe(self, given_paskey: str,) -> bool:
         if given_paskey == self.__User_passkey:
             print("access granted")
@@ -23,28 +27,33 @@ class Digitalsafe:
             print("access not granted")
             return False
 
-    def addfile(self, filename = str) -> None:
-        #adds files
-        if self.__files == "":
-            self.__files = filename
-        else:
-            self.__files += f"{filename}"
-        #changes availablity of files to true meaning there are files
+    def addfile(self, filename: = str, compartment: int = 1) -> None:
+        #checks if compartment inputted as destination exists
+        if compartment not in self.__files:
+            print("Inputted compartment " + compartment +"destination does not exist")
+        #checks if input will exceed storage capacity
+        if self.__files >= self.maxstorage:
+            print("Cannot store" + filename +" reached max storage of " + self.maxstorage )
+            return
+        #declares if a file is available
+        self.__files.append(filename)
         self.__Available = True
-        print("you have stored"+ filename)
+        print("Succesfully added " + filename)
 
+    
     def take_files(self, filename) -> str:
-        if not self.__Available:
+        if filename in self.__files:    
+            self.__files.remove(filename)
+            if not self.__files:
+                self.__Available = False
+            return filename
+        else:
+            print("file "+ filename + " was not found")
             return ""
-        taken = self.__files
-        self.__files = ""
-        self.__Available = False  # Set back to False since storage is now empty
-        return taken
 
     def display_info(self) -> None:
-        files_present = "yes there are files present" if self.__Available else "no there are no files"
-        file_list = self.__files if self.__files else "none"
-        print(f"Safe name: {self.Safename} | Capacity:  {self.maxstorage} | ")
+        files_present = "yes" if self.__Available == "no"
+        files_list = "| ". join(self.__files) if self.__files 
 
 
 if __name__ == "__main__":
