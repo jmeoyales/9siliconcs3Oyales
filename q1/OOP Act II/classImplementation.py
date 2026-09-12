@@ -1,49 +1,54 @@
+
+
 class Digitalsafe:
-    def __init__(self, safename: str = "", maxstorage: int = 0, username: str = "", passkey: str = "", compartments: int = 1):
-        # Public
+    def __init__(self, safename: str = "", maxstorage: int = 0, username: str = "", passkey: str = ""):
+    # public
         self.Safename: str = safename
         self.maxstorage: int = maxstorage
-        # Private
+    
+    # private
         self.__Username: str = username
         self.__User_passkey: str = passkey
         self.__Available: bool = False
-        self.__Compartments: int = compartments
-        self.__files: dict[int, list[str]] = {i: [] for i in range(1, self.__Compartments + 1)}
+        self.__Compartments: int = 1
+        self.__files:  dict[int, list[str]] = {i: [] for i in range(1, self.__Compartments + 1)}
 
+
+#fucntion to open safe to user
     def total_file_count(self) -> int:
         return sum(len(files) for files in self.__files.values())
 
-    def accesssafe(self, given_paskey: str) -> bool:
+    
+    def accesssafe(self, given_paskey: str,) -> bool:
         if given_paskey == self.__User_passkey:
-            print("Access granted")
+            print("access granted")
             return True
         else:
-            print("Access denied")
+            print("access not granted")
             return False
-        
-    def addfile(self, filename: str, compartment: int = 1) -> None:
-        # Checks if compartment exists
+
+    def addfile(self, filename: = str, compartment: int = 1) -> None:
+        #checks if compartment inputted as destination exists
         if compartment not in self.__files:
-            print(f"Inputted compartment as destination {compartment} does not exist")
+            print("Inputted compartment " + compartment +"destination does not exist")
+        #checks if input will exceed storage capacity
+        if self.__files >= self.maxstorage:
+            print("Cannot store" + filename +" reached max storage of " + self.maxstorage )
             return
-
-        # Checks if input will exceed storage capacity
-        if self.total_file_count() >= self.maxstorage:
-            print(f"Cannot store file {filename}: exceeded storage capacity of {self.maxstorage}")
-            return
-
-        self.__files[compartment].append(filename)
+        #declares if a file is available
+        self.__files.append(filename)
         self.__Available = True
-        print(f"Successfully added file to digital safe {self.Safename}")
+        print("Succesfully added " + filename)
 
-    def take_files(self, filename: str, compartment: int = 1) -> str:
-        if compartment in self.__files and filename in self.__files[compartment]:
-            self.__files[compartment].remove(filename)
-            if self.total_file_count() == 0:
+    
+    def take_files(self, filename) -> str:
+        if filename in self.__files:    
+            self.__files.remove(filename)
+            if not self.__files:
                 self.__Available = False
             return filename
         else:
-            print("File was not found in destination")
+            print("file "+ filename + " was not found")
             return ""
 
     def display_info(self) -> None:
@@ -101,7 +106,7 @@ class Digitalsafe:
         safe2.display_info()
         return safe1, safe2
 
-
+class Safemanger:
     
 
 
