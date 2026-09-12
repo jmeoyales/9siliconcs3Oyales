@@ -1,0 +1,16 @@
+Safename=akakak
+MaxStorage=1000
+Username=lala
+Passkey=1234
+Compartments=10
+---COMPARTMENTS---
+1:
+2:
+3:
+4:
+5:
+6:
+7:
+8:
+9:
+10:
