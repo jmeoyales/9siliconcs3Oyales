@@ -101,7 +101,7 @@ class Digitalsafe:
         safe2.display_info()
         return safe1, safe2
 
-class Safemanger:
+
     
 
 
