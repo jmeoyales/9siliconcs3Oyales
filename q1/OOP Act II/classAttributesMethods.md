@@ -6,6 +6,8 @@
 """
 In UML: 
 + Public
+    + Safename
+    + max storage
 
 
 - Private
