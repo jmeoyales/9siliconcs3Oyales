@@ -24,11 +24,13 @@ multiplicity -- 1 to 0... one to many
 ![DIAGRAM](III/image.png)
 
 ## python implementation
+[PYTHON](classimplementation.py)
 
 ## test run
-
+![TEST RUN](III/TESTRUN.png)
 
 ## OBJECT RELATIONSHIP DIAGRAM
+![alt text](III/relationship.png)
 
 ## ANALYSIS
 1. The association between safemanager and digitalsafe if 1 to 0.. as one to many. In the system the manager has control over multiple instances of digital safes acting. The safemanager can intereact with the digital safe by registering more, deleting and displaying all safes.
