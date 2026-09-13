@@ -1,44 +1,38 @@
-1. Identify your original class. 
-2. What does it represent? 
-3. Which existing attributes and methods will still be useful when it interacts with another class?
+# Class Relationships: Association and Multiplicity
+
+## Previous work
+[PART 1](../OOP%20Act/classObjectUML.md)
+[PART 2](../OOP%20Act%20II/classAttributesMethods.md)
+
+## existing class
+CLASS -- Digitalsafe
+description --  makes a digital safe that the user can add files to
+
+## new class
+CLASS -- Safemanager
+description -- manages all digital safes that tallies all existing safes
+
+## Association
+relationship -- safemanager manages Digitalsafe
+                safe manager has a list of Digitalsafes that it can delete or create
+
+## multiplicity
+multiplicity -- 1 to 0... one to many
+                one manager can oversee 0,1,and many
+
+## UML class diagram
+![DIAGRAM](III/image.png)
+
+## python implementation
+
+## test run
 
 
+## OBJECT RELATIONSHIP DIAGRAM
 
-
-
-1. What is the association between your two classes? Explain the relationship using your actual system. 
-2. What multiplicity did you choose, and why? Explain why 1:1, 1:0..*, or another multiplicity is appropriate. 
-3. How did you implement the relationship in Python? Identify which attribute stores the related object or objects. 
-4. Why did you store an object reference instead of copying its data? Use one example from your implementation. 
-5. If your relationship uses “many,” why is a list appropriate? Explain what the list actually contains.
-
-# Class Relationships: Association and Multiplicity 
-## Previous Work 
-[Part I - Classes and Objects]
-[Part II - Class Attributes and Methods]
-## Existing Class 
-Class: 
-Description: 
-## New Related Class 
-Class: 
-Description: 
-## Association 
-Relationship: 
-Explanation: 
-## Multiplicity
-Multiplicity: 
-Explanation: 
-## UML Class Relationship Diagram 
-![Class Relationship Diagram]
-## Python Implementation 
-[View Python Source] 
-## Test Run 
-![Relationship Test Run] 
-## Object Relationship Diagram 
-![Object Relationship Diagram]
-## Analysis 
-### What is the association between your two classes? 
-### What multiplicity did you choose and why? 
-### How did you implement the relationship in Python? 
-### Why did you store an object reference instead of copying its data? 
-### If your relationship uses many, why is a list appropriate? 
+## ANALYSIS
+1. The association between safemanager and digitalsafe if 1 to 0.. as one to many. In the system the manager has control over multiple instances of digital safes acting. The safemanager can intereact with the digital safe by registering more, deleting and displaying all safes.
+2. It is 1 to 0.. because this caan allow for more effecient use of the safes made by the class digitalsafe
+3. The relationship relies on the list self.__safe_list . The class safemanager will will be able to communicate with the class digital by interacting with this it can make a new safe.
+4. By storing the data it makes sure the data will be properly synched up to the original instance 
+5. A list is appropriate because this can allow for an effecient solution to managing all the new instances
