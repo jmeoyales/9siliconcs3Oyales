@@ -31,16 +31,16 @@ files           string          private         files the exist within the class
 '''
 
 UPDATED ULM
-![UPDATED ULM](IMAGES/Screenshot%202026-09-07%20204355.png)
+[UPDATED ULM](IMAGES/Screenshot%202026-09-07%20204355.png)
 
 PYTHON CODE
 [pythoncode](classImplementation.py)
 
 TEST RUN
-![TEST](IMAGES/Screenshot%202026-09-07%20214907.png)
+![TEST](IMAGES/image.png)
 
 OBJECT DIAGRAM
-![OBJECT DIAGRAM](IMAGES/Screenshot%202026-09-07%20215815.png)
+![DIAGRAM](DIAGRAM.png)
 
 ANALYSIS
 
