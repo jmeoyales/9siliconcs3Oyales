@@ -38,3 +38,11 @@ multiplicity -- 1 to 0... one to many
 3. The relationship relies on the list self.__safe_list . The class safemanager will will be able to communicate with the class digital by interacting with this it can make a new safe.
 4. By storing the data it makes sure the data will be properly synched up to the original instance 
 5. A list is appropriate because this can allow for an effecient solution to managing all the new instances
+
+
+## LLM NOTES
+
+![PROMPT 1](III/EVIDENCE.png)
+![PROMPT 2](III/E2.png)
+![PROMPT 3](III/E3.png)
+![alt text](<Screenshot 2026-09-14 122706.png>)
