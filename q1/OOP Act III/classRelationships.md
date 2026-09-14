@@ -45,4 +45,4 @@ multiplicity -- 1 to 0... one to many
 ![PROMPT 1](III/EVIDENCE.png)
 ![PROMPT 2](III/E2.png)
 ![PROMPT 3](III/E3.png)
-![alt text](<Screenshot 2026-09-14 122706.png>)
+![PROMPT 4](III/E4.png)
