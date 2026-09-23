@@ -43,3 +43,16 @@ Answers:
 4. Association from part III is a shoddy collaboration of 2 classes where both can technically exist without the other. Inheritance Establishes a strict hierarchy where one must exist first before the other can form this also has an inate property of ownership where the composite object has control over the entire generations after it.
 
 5. My design follows the DRY principle by keeping all the core functions of a basic digital safe in the Digitalsafe class. Instead of duplicating it to all other iterations child classes can be made from it to reduce inefficiency. This effetively solves the problem of having to find copy and paste over and over to make a new class.
+
+
+# LLM NOTES:
+![alt text](LLM/Screenshot%202026-09-24%20001019.png)
+![alt text](LLM/Screenshot%202026-09-24%20001026.png)
+![alt text](LLM/Screenshot%202026-09-24%20001038.png)
+![alt text](LLM/Screenshot%202026-09-24%20001053.png)
+![alt text](LLM/Screenshot%202026-09-24%20001103.png)
+![alt text](LLM/Screenshot%202026-09-24%20001115.png)
+![alt text](LLM/Screenshot%202026-09-24%20001124.png)
+![alt text](LLM/Screenshot%202026-09-24%20001135.png)
+![alt text](LLM/Screenshot%202026-09-24%20001149.png)
+![alt text](LLM/Screenshot%202026-09-24%20001208.png)
