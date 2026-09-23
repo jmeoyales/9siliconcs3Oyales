@@ -28,7 +28,7 @@ Explanation: The Biometric_safe class has an attribute log_book which stores dat
 ![Test](images/Test.png) 
 
 ## Object Diagram 
-![Object Diagram](Images/image.png)
+![Object Diagram](images/image.png)
 
 ## Reflection 
 Answers: 
