@@ -19,7 +19,7 @@ Relationship: Composition Strong HAS-A
 Explanation: The Biometric_safe class has an attribute log_book which stores data locally within it as a list and since it is instatiated with the safe's constructor it also gets deleted when the safe is deleted aswell.
 
 ## Advanced UML Diagram 
-![Advanced UML](images/AdvancedUML.png)
+![Advanced UML](Images/AdvancedUML.png)
 
 ## Python Implementation 
 [Source Code](advancedRelationships.py) 
