@@ -12,7 +12,7 @@ Child: Biometric_safe
 Explanation: This class has an extra function to allow for an alternative way of accessing the safe beside inputting their passkey now its their biometric alongside it. 
 
 ## Inheritance UML 
-![Inheritance](images/Inheritance.png)
+![Inheritance](Images/Inheritance.png)
 
 ## Composition/Aggregation 
 Relationship: Composition Strong HAS-A
@@ -26,10 +26,10 @@ Explanation: The Biometric_safe class has an attribute log_book which stores dat
 
 
 ## Test Run 
-![Test](images/Test.png) 
+![Test](Images/Test.png) 
 
 ## Object Diagram 
-![Object Diagram](images/image.png)
+![Object Diagram](Images/image.png)
 
 ## Reflection 
 Answers: 
