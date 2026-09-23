@@ -12,14 +12,14 @@ Child: Biometric_safe
 Explanation: This class has an extra function to allow for an alternative way of accessing the safe beside inputting their passkey now its their biometric alongside it. 
 
 ## Inheritance UML 
-![Inheritance](Images/Inheritance.png)
+![Inheritance](images/Inheritance.png)
 
 ## Composition/Aggregation 
 Relationship: Composition Strong HAS-A
 Explanation: The Biometric_safe class has an attribute log_book which stores data locally within it as a list and since it is instatiated with the safe's constructor it also gets deleted when the safe is deleted aswell.
 
 ## Advanced UML Diagram 
-![Advanced UML](images/Advanced%20UML.png)
+![Advanced UML](images/AdvancedUML.png)
 
 ## Python Implementation 
 [Source Code](advancedRelationships.py) 
