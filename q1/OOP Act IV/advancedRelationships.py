@@ -81,15 +81,27 @@ class DigitalSafeManager:
 
 
 class Biometric_safe(Digitalsafe):
-    def __init__(self, safename = "", maxstorage = 0, username = "", passkey = "", compartments = 1, biometric = "", log = ''):
+    def __init__(self, safename = "", maxstorage = 0, username = "", passkey = "", compartments = 1, biometric = "", user_bio = "", input_bio = ""):
         super().__init__(safename, maxstorage, username, passkey, compartments)
-        
+
+        """Self stuff for child class of digital safe"""
         self.Biometric = biometric
-        self.Log_book = log
-        def 
+        self.Log_book = []
+        self.biometric_user = user_bio
 
+    """methods"""
+    def addlog(self,biometric: str) -> str:
+        self.Log_book.append(biometric)
+        
 
-
+    def verify_biometric(self,biometric: str, input_bio: str, date_time: str) -> bool:
+        print(f"input Biometric: {biometric}")
+        if input_bio == biometric:
+            biometricsafe.addlog(biometric)
+            biometricsafe.addlog(date_time)
+            print("access granted.")
+            
+            
 
 
 if __name__ == "__main__":
@@ -102,10 +114,13 @@ if __name__ == "__main__":
         username = "Oyales",
         compartments = 10,
         passkey = "12345jon",
-        biometric = "0001index"
+        biometric = "0001index",
+        
     )
 
-    #testing all inherited traits
-    print(biometricsafe.safename)
-    biometricsafe.accesssafe("12345jon")
-    print(biometricsafe.Biometric)
+    #testing inherited traits
+    print(biometricsafe.display_info())
+    print("Optional access safe with biometric: ")
+    biometricsafe.verify_biometric(biometric= "0001index", input_bio= "0001index", date_time= "09/23/26 | 10:20 pm")
+    print(biometricsafe.Log_book)
+    
