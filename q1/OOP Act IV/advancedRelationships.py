@@ -119,7 +119,7 @@ if __name__ == "__main__":
     )
 
     #testing inherited traits
-    print(biometricsafe.display_info())
+    biometricsafe.display_info()
     print("Optional access safe with biometric: ")
     biometricsafe.verify_biometric(biometric= "0001index", input_bio= "0001index", date_time= "09/23/26 | 10:20 pm")
     print(biometricsafe.Log_book)
