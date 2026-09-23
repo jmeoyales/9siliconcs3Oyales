@@ -24,6 +24,7 @@ Explanation: The Biometric_safe class has an attribute log_book which stores dat
 ## Python Implementation 
 [Source Code](advancedRelationships.py) 
 
+
 ## Test Run 
 ![Test](images/Test.png) 
 
