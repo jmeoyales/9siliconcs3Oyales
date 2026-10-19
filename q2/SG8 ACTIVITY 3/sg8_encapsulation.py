@@ -13,7 +13,7 @@ class BankAccount:
         self.__Acc_balance = Acc_balance_value
     
             
-
+    # getter functions
     @property
     def get_acc_num(self):
         return self.__Acc_Num
@@ -22,6 +22,7 @@ class BankAccount:
     def get_balance(self):
         return self.__Acc_balance
 
+#main code
 if __name__ == "__main__":
     A1 = BankAccount(
         Acc_Num = 12345,
@@ -35,10 +36,19 @@ if __name__ == "__main__":
     print(f"Balance: [{A1.get_balance}]")
     End = True
     print("1 (set Account Number.), 2 (set Account Balance), 3 (End session)")
+
+    #loops for updates
     while End == True:
 
         choice = input("Enter Choice: ")
-    
+        # when choice is 1 is does the following
+        """
+        asks for input
+        gives input to function set_acc_num
+        then prints the balnce and account number
+        """
+        # same goes for choice 2 but checks for if the input is negative
+        #Choice 3 ends the loop and subsequently ends the session
         if choice == "1":
             Acc_num_value = input("Set Account Number to ")
             A1.set_acc_num(Acc_num_value)
