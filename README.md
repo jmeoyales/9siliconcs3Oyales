@@ -24,3 +24,6 @@ OOP ACT III
 
 OOP ACT IV
 [OOP ACTIVITY](q1/OOP%20Act%20IV/advancedRelationships.md)
+
+SG8 ACTIVITY 3
+[ACTIVITY 3](q2/SG8%20ACTIVITY%203/sg8_encapsulation.py)
