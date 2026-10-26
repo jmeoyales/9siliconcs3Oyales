@@ -5,9 +5,9 @@ class Publication:
             self.__author = author
 
     # public methods
-    def get_title(self):
+    def get_title(self,title):
         self.__title = title
-    def get_author(self):
+    def get_author(self,author):
         self.__author = author
 
     def set_title(self,title):
