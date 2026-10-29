@@ -14,27 +14,27 @@ class Animal:
 class lion(Animal):
 
     def eat(self):
-        print(f"{self.name} Eats.")
+        print(f"{self.name} eats Fresh Meat.")
 
     def make_sound(self):
-        print(f"{self.name} roars.")
+        print(f"{self.name} roars loudly!")
 
-class elephant(Animal):
+class elephant(Animal):D
 
     def eat(self):
-        print(f"{self.name} Eats")
+        print(f"{self.name} eats grass and fruits.")
 
     #An elephant's equivalent to a lion's roar is a trumpet
     def make_sound(self):
-        print(f"{self.name} trumpets.")
+        print(f"{self.name} trumpets!")
 
 class monkey(Animal):
 
     def eat(self):
-        print(f"{self.name} Eats.")
+        print(f"{self.name} eats bananas.")
 
     def make_sound(self):
-        print(f"{self.name} chatters.")
+        print(f"{self.name} chatters!")
 
 
 chimp = monkey("George")
