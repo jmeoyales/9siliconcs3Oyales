@@ -32,5 +32,7 @@ SG9 FORMATIVE ASSESSMENT 1
 [FA1](q2/SG9%20FORMATIVE%20ASSESSMENT%201/sg9_library_management_system.py)
 
 SG10 Activity 1
+
 [ACT1](q2/SG10%20Activity%201/SG10%20A1.py)
+
 [ACT1_test_trial](q2/SG10%20Activity%201/image.png)
