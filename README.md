@@ -33,6 +33,7 @@ SG9 FORMATIVE ASSESSMENT 1
 
 SG10 Activity 1
 
-[ACT1](q2/SG10%20Activity%201/SG10%20A1.py)
-
+code
+[ACT1_CODE](q2/SG10%20Activity%201/SG10%20A1.py)
+Test trial
 [ACT1_test_trial](q2/SG10%20Activity%201/image.png)
