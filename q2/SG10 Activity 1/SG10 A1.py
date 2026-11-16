@@ -19,7 +19,7 @@ class lion(Animal):
     def make_sound(self):
         print(f"{self.name} roars loudly!")
 
-class elephant(Animal):D
+class elephant(Animal):
 
     def eat(self):
         print(f"{self.name} eats grass and fruits.")
