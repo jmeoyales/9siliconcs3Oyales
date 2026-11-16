@@ -37,3 +37,9 @@ code
 [ACT1_CODE](q2/SG10%20Activity%201/SG10%20A1.py)
 Test trial
 [ACT1_test_trial](q2/SG10%20Activity%201/image.png)
+
+
+SG11 ACT 1&2
+[ACT 1](q2/SG11%20Activity%201.py)
+[ACT2](q2/SG11%20Activity%202/ANSWER.md)
+[ACT2 CODE](q2/SG11%20Activity%202/NUMBER%202%20CODE.py)
